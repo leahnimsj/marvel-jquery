@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+
+    <!-- search area for api  -->
+    <form>
+      search characters: <input id="searchTerm" name="searchTerm" type="text" placeholder="search here"><button id="searchButton">search marvel API</button>
+    </form>
+
+    <!-- table that displays characters  -->
+      <table>
+        <thead>
+          <th>Character Name</th>
+          <th>Character Image</th>
+        </thead>
+        <tbody id="characterList">
+
+        </tbody>
+      </table>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/javascript/marvel.js"></script>
+  </body>
+</html>
